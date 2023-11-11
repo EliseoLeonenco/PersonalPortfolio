@@ -373,6 +373,21 @@ section {
   border: transparent;
 }
 
+.project-desc-right .github-button img {
+  width: 60px;
+}
+
+/*
+.project-desc-right button {
+  width: 80px;
+}
+
+.project-desc-right .github-button img {
+  width: 50px;
+  height: 50px;
+}
+*/
+
 .github-button:hover {
   box-shadow: none;
 }
@@ -562,7 +577,7 @@ section {
   }
 
   .project-desc-right button {
-    width: 70px;
+    width: 80px;
   }
 
   .project-desc-right .github-button img {
@@ -603,5 +618,11 @@ section {
 
   section {
     width: 1200px;
+  }
+}
+
+@media screen and (max-width: 999px) {
+  .project-desc-right .github-button img {
+    margin-top: 5rem;
   }
 }
