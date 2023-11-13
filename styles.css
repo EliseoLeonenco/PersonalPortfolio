@@ -615,3 +615,75 @@ section {
     margin-top: 5rem;
   }
 }
+
+@media screen and (max-width: 836px) {
+  .full-name {
+    font-size: 6rem;
+    margin-top: 7rem;
+  }
+
+  .current-title {
+    font-size: 2rem;
+  }
+
+  .front-page {
+    margin-top: 40px;
+  }
+}
+
+@media screen and (max-width: 780px) {
+  .full-name {
+    font-size: 5rem;
+  }
+
+  .current-title {
+    font-size: 1.7rem;
+  }
+
+}
+
+@media screen and (max-width: 666px) {
+  .full-name {
+    font-size: 4rem;
+  }
+
+  .current-title {
+    font-size: 1.5rem;
+  }
+
+}
+
+@media screen and (max-width: 590px) {
+  .full-name {
+    font-size: 3.5rem;
+  }
+
+  .current-title {
+    font-size: 1.3rem;
+  }
+
+  #contactDetails-btn {
+    font-size: 0.8rem;
+  }
+
+  .front-page {
+    margin-top: 30px;
+  }
+}
+
+@media screen and (max-width: 495px) {
+  .full-name {
+    font-size: 3rem;
+  }
+
+  .current-title {
+    font-size: 1.3rem;
+  }
+
+}
+
+@media screen and (max-width: 403px) {
+  #skills {
+    margin-top: 10rem;
+  }
+}
