@@ -667,7 +667,7 @@ section {
   }
 
   .front-page {
-    margin-top: 30px;
+    margin-top: 40px;
   }
 }
 
@@ -680,10 +680,61 @@ section {
     font-size: 1.3rem;
   }
 
+  .front-page {
+    margin-top: 60px;
+  }
+
+  #github-profile, #linkedin-profile, #email-profile {
+    font-size: 1.2rem;
+  }
 }
 
-@media screen and (max-width: 403px) {
-  #skills {
-    margin-top: 10rem;
+@media screen and (max-width: 439px) {
+  .full-name {
+    font-size: 2.5rem;
+  }
+
+  .current-title {
+    font-size: 1.2rem;
+  }
+
+  .front-page {
+    margin-top: 70px;
+  }
+
+  .about-container div {
+    justify-content: left;
+  }
+
+  .about-container h1 {
+    font-size: 1.9rem;
+  }
+
+  #resume-btn {
+    font-size: 0.9rem;
+  }
+
+  #github-profile, #linkedin-profile, #email-profile {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 382px) {
+  .full-name {
+    font-size: 2rem;
+  }
+
+  .current-title {
+    font-size: 1rem;
+  }
+
+  #github-profile, #linkedin-profile, #email-profile {
+    font-size: 0.9rem;
+  }
+}
+
+@media screen and (max-width: 325px) {
+  .full-name {
+    font-size: 1.9rem;
   }
 }
