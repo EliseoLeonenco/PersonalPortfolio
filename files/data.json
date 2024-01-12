@@ -9,7 +9,7 @@
   },
   {
     "title": "News API Search Android App",
-    "description": "bb",
+    "description": "Design and developed a News Search Android application using Kotlin and Android Studio. The app harnesses the power of a News API to provide users with real-time, up-to-date news articles from various sources around the globe. This project focuses on API handling and parsing calls, facilitating users to perform keyword searches and access corresponding news articles. Users can open the displayed articles via their source URL links or listen to them aloud using TextToSpeech functionality, ensuring inclusivity for visually impaired users.",
     "img": "./img/projects/news_app.png",
     "alt": "image of app",
     "url": "https://github.com/EliseoLeonenco/News-API-Project",
@@ -33,7 +33,7 @@
   },
   {
     "title": "Survey Android App",
-    "description": "Developed a secure and user-friendly Student Survey Android app using Kotlin and Android Studio. The app allows for seamless communication between teachers and students, allowing teachers to create manage surveys for students to answer. I Implemented a robust account system with user authentication and validation checks,  employing SQLite tables for efficient data management of surveys, responses, and user accounts. Demonstrated proficiency in mobile app development, focusing on data storage, back-end integration, and validation features for an enhanced user experience.",
+    "description": "Developed a secure and user-friendly Student Survey Android application using Kotlin and Android Studio. The app allows for seamless communication between teachers and students, allowing teachers to create manage surveys for students to answer. I Implemented a robust account system with user authentication and validation checks,  employing SQLite tables for efficient data management of surveys, responses, and user accounts. Demonstrated proficiency in mobile app development, focusing on data storage, back-end integration, and validation features for an enhanced user experience.",
     "img": "./img/projects/mobile-app.png",
     "alt": "image of survey app",
     "url": "https://github.com/EliseoLeonenco/Survey_MobileApplication",
