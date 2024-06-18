@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="./styles.css" />
+    <link rel="shortcut icon" href="/img/logo.png" />
+  </head>
+  <body>
+    <canvas id="canvas"></canvas>
+    <header>
+      <button type="button" id="burgerButton">&#9776;</button>
+      <nav id="navBar">
+        <button type="button" id="burgerClose">X</button>
+        <div>
+          <button type="button" id="home-btn">Home</button>
+          <button type="button" id="about-btn">About</button>
+          <button type="button" id="projects-btn">Projects</button>
+          <button type="button" id="contact-btn">Contact</button>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section id="introPage">
+        <div class="front-page">
+          <h1 class="full-name">Eliseo Leonenco</h1>
+          <h2 class="current-title">Computer Science Graduate</h2>
+          <button id="contactDetails-btn" type="button">
+            <span>Contact Details</span>
+          </button>
+        </div>
+        <div id="scroll-btn-box">
+          <span>Checkout my Projects</span>
+          <button id="scrollDown" type="button">
+            <img draggable="false" src="./img/arrow-down-white.png" alt="arrow down icon" />
+          </button>
+        </div>
+      </section>
+      <section>
+        <h1 id="skills" class="sectionTitle">Skills and tools</h1>
+        <div id="skills-container">
+          <div class="skillList">
+            <div>
+              <img class="skillIcon" src="./img/java-white.png" alt="java icon" />
+              <span>Java</span>
+            </div>
+            <div>
+              <img class="skillIcon" src="./img/kotlin-white.png" alt="kotlin icon" />
+              <span>Kotlin</span>
+            </div>
+            <div>
+              <img class="skillIcon" src="./img/js-white.png" alt="javascript icon" />
+              <span>JavaScript</span>
+            </div>
+            <div>
+              <img class="skillIcon" src="./img/html-white.png" alt="html icon" />
+              <span>HTML</span>
+            </div>
+            <div>
+              <img class="skillIcon" src="./img/css-white.png" alt="css icon" />
+              <span>CSS</span>
+            </div>
+            <div>
+              <img class="skillIcon" src="./img/mysql-white.png" alt="github icon" />
+              <span>MySQL</span>
+            </div>
+            <div>
+              <img class="skillIcon" src="./img/git-white.png" alt="figma icon" />
+              <span>Git</span>
+            </div>
+            <div>
+              <img class="skillIcon" src="./img/github-white.png" alt="github icon" />
+              <span>GitHub</span>
+            </div>
+            <div>
+              <img class="skillIcon" src="./img/android-white.png" alt="android studio icon" />
+              <span>Android Studio</span>
+            </div>
+            <div>
+              <img class="skillIcon" src="./img/vscode-white.png" alt="vscode icon" />
+              <span>VS Code</span>
+            </div>
+          </div>
+        </div>
+        <div class="about-container">
+          <div>
+            <h1>About Me</h1>
+            <button type="button" id="resume-btn">CV / Resume</button>
+          </div>
+          <div id="collapsable-btn">
+            <iframe id="resume" src="./files/Eliseo_Leonenco_ukCV.pdf"></iframe>
+          </div>
+          <p>
+            Hello there! 👋 I'm Eliseo, thanks for stopping by my portfolio website. 
+            I'm a recent computer science graduate passionate about crafting elegant and efficient solutions in the digital realm. 
+            With a primary focus and proficiency in Java, I thrive on turning complex ideas into clean, user-friendly code. 
+            My expertise extends beyond Java; I have hands-on experience in a variety of programming languages including Kotlin, Javascript, HTML, CSS, and MySQL. 
+            I find joy in tackling challenging problems and I'm always eager to learn new technologies. 
+            I believe in the power of innovation and collaboration, and I'm driven by the desire to create impactful software that makes a difference. 
+            As a dedicated and adaptable developer, I'm constantly honing my skills and exploring new horizons. 
+            Don't hesitate to get in touch with me!
+          </p>
+        </div>
+      </section>
+      <section id="project-container">
+        <h1 id="projects" class="sectionTitle">Projects</h1>
+        <div id="container-cards"></div>
+      </section>
+      <section>
+        <h1 id="contact-Section" class="sectionTitle">Contact me...</h1>
+        <div id="contact-Section">
+          <div class="contact-links">
+            <button type="button" id="github-profile">
+              <img src="./img/github-white.png" alt="github logo" />
+              EliseoLeonenco
+            </button>
+            <button type="button" id="linkedin-profile">
+              <img src="./img/linkedin-white.png" alt="linkedin logo" />
+              eliseo-leonenco
+            </button>
+            <button type="button" id="email-profile">
+              <img src="./img/envelope-white.png" alt="email logo" />
+              eliseoleonenco02@gmail.com
+            </button>
+            <span id="copied-popup">Email Copied!</span>
+          </div>
+        </div>
+      </section>
+    </main>
+    <script type="module" src="./main.js"></script>
+  </body>
+</html>

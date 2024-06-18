@@ -1,0 +1,58 @@
+[
+  {
+    "title": "SSY Internal Website Manage Users Feature",
+    "description": "As my first experience as a web developer I got to work with the Digital Analytics development team at SSY! I worked on a solo project to create a \"Manage\" tab within the internal website for the IT department to be able to directly add users into the internal SQL database. Developing Fullstack in Blazor, utalizing C#, HTML and CSS to build up both the front-end and back-end of the webpage and add new features for efficiency across departments. Furthermore working with SQL queries and SQL Server Management Studio to manage and create database tables, allowing developers and IT to directly add, remove and edit users within the database through the internal employee website. \n(Sensitive information is blocked out in the website image)",
+    "img": "./img/projects/ssy-internal-website.png",
+    "alt": "image of website",
+    "url": "https://www.ssyglobal.com/",
+    "liveUrl": ""
+  },
+  {
+    "title": "Text-based Adventure Game",
+    "description": "Text adventure games were of the first and earliest form of video games and interactive fiction. For my final development project, I skillfully blended software and game development, resulting in the creation of a captivating retro-style text-based adventure game. Utalizing my extensive expertise in Java and object-oriented programming principles, I meticulously designed the game's intricate storyline and brought it to life using Java Swing's powerful GUI toolkit.",
+    "img": "./img/projects/text-game.png",
+    "alt": "image of game",
+    "url": "https://github.com/EliseoLeonenco/TextAdventureGame",
+    "liveUrl": ""
+  },
+  {
+    "title": "News API Search Android App",
+    "description": "Design and developed a News Search Android application using Kotlin and Android Studio. The app harnesses the power of a News API to provide users with real-time, up-to-date news articles from various sources around the globe. This project focuses on API handling and parsing calls, facilitating users to perform keyword searches and access corresponding news articles. Users can open the displayed articles via their source URL links or listen to them aloud using TextToSpeech functionality, ensuring inclusivity for visually impaired users.",
+    "img": "./img/projects/news_app.png",
+    "alt": "image of app",
+    "url": "https://github.com/EliseoLeonenco/News-API-Project",
+    "liveUrl": ""
+  },
+  {
+    "title": "Personal Portfolio Website",
+    "description": "For my personal portfolio website, I seamlessly blended JavaScript, HTML and CSS to craft a vibrant and visually captivating online presence. Leveraging the prowess of JSON files and JavaScript to store and dynamically update my ever-expanding portfolio. Additionally, I employed JavaScript to weave in captivating animations and interactive elements, elevating user engagement and providing a seamlessly intuitive experience.",
+    "img": "./img/projects/portfolio-website.png",
+    "alt": "image of website",
+    "url": "#",
+    "liveUrl": ""
+  },
+  {
+    "title": "Coffee Shop Website",
+    "description": "Collaborating with a friend who envisioned a fictional luxury coffee shop for his project, I undertook the task of bringing his concept to life online. With the combination of knowledge in JavaScript, HTML and CSS I designed and developed a responsive website that beautifully captured the essence of this imaginary upscale coffee haven. Utalizing Git for version control and JavaScript to create visual feedback through animations, I created a dynamic and user-friendly platform that effectively represented the unique charm of the coffee shop.",
+    "img": "./img/projects/coffee-website.png",
+    "alt": "image of website",
+    "url": "https://github.com/EliseoLeonenco/CoffeeShopWebsite",
+    "liveUrl": ""
+  },
+  {
+    "title": "Survey Android App",
+    "description": "Developed a secure and user-friendly Student Survey Android application using Kotlin and Android Studio. The app allows for seamless communication between teachers and students, allowing teachers to create manage surveys for students to answer. I Implemented a robust account system with user authentication and validation checks,  employing SQLite tables for efficient data management of surveys, responses, and user accounts. Demonstrated proficiency in mobile app development, focusing on data storage, back-end integration, and validation features for an enhanced user experience.",
+    "img": "./img/projects/mobile-app.png",
+    "alt": "image of survey app",
+    "url": "https://github.com/EliseoLeonenco/Survey_MobileApplication",
+    "liveUrl": ""
+  },
+  {
+    "title": "Module Picker",
+    "description": "I designed and developed a user-friendly Module Chooser GUI application for students using Java and JavaFX. The application served as an interactive platform for students to select their final year modules effortlessly. Leveraging JavaFX's versatile UI components, I crafted an intuitive and easy-to-navigate interface, enhancing the user experience. Demonstrating my expertise in object-oriented programming, I created a flexible system featuring a credit-based module selection mechanism.",
+    "img": "./img/projects/mod-chooser.png",
+    "alt": "image of module picker",
+    "url": "https://github.com/EliseoLeonenco/ModuleChooserGUI",
+    "liveUrl": ""
+  }
+]
