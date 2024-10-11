@@ -1,5 +1,13 @@
 [
   {
+  "title": "SSY Ship Fixtures",
+  "description": "desc",
+  "img": "./img/projects/digital_project.PNG",
+  "alt": "image of website",
+  "url": "https://www.ssyglobal.com/",
+  "liveUrl": ""
+  },
+  {
     "title": "SSY Internal Website Manage Users Feature",
     "description": "As my first experience as a web developer I got to work with the Digital Analytics development team at SSY! I worked on a solo project to create a \"Manage\" tab within the internal website for the IT department to be able to directly add users into the internal SQL database. Developing Fullstack in Blazor, utalizing C#, HTML and CSS to build up both the front-end and back-end of the webpage and add new features for efficiency across departments. Furthermore working with SQL queries and SQL Server Management Studio to manage and create database tables, allowing developers and IT to directly add, remove and edit users within the database through the internal employee website. \n(Sensitive information is blocked out in the website image)",
     "img": "./img/projects/ssy-internal-website.png",
