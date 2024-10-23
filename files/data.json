@@ -1,7 +1,7 @@
 [
   {
   "title": "SSY Ship Fixtures",
-  "description": "desc",
+  "description": "Another SSY themed project! As a Shipbroking company, brokers need their ship data all layed out for them to use in a visually apealing and efficient manner. This project used a ship fixtures API to display all data onto a table. The data could be sorted by the different categories, individual ships could be clicked on to display extra data, and bets can be placed on certain ships! API handling and manipulation was the primary purpose for this project.",
   "img": "./img/projects/digital_project.PNG",
   "alt": "image of website",
   "url": "https://www.ssyglobal.com/",
